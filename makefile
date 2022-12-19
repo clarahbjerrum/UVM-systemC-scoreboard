@@ -1,5 +1,5 @@
 # module load gnu/gcc/9.3 
-# setenv LD_LIBRARY_PATH /mnt/common/itd/software/install/gnu/gcc/9.3.0/lib64:/home/clara/Programs/systemc-2.3.3/lib-linux64:/home/clara/Programs/uvm-systemc-1.0-beta4/lib-linux64
+# setenv LD_LIBRARY_PATH /home/clara/Programs/systemc-2.3.3/lib-linux64:/home/clara/Programs/uvm-systemc-1.0-beta4/lib-linux64
 
 SYSTEMC_HOME = /home/clara/Programs/systemc-2.3.3
 UVM_SYSTEMC_HOME =  /home/clara/Programs/uvm-systemc-1.0-beta4
