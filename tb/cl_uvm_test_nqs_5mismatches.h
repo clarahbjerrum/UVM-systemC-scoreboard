@@ -26,7 +26,7 @@ class cl_uvm_test_nqs_5mismatches: public cl_uvm_test_base{
             number_of_queues = cfg->num_of_queues;
             
             // creating pointer to item
-            cl_syoscb_item* item;
+            cl_syoscb_item* item = new cl_syoscb_item("item");
 
             // creating 10 elements with value n
             for(int n = 0; n<10; n++){

@@ -25,7 +25,7 @@ class cl_uvm_test_2qs_5unmatched: public cl_uvm_test_base{
             }
 
             // creating 10 elements with value n*2
-            cl_syoscb_item* item;
+            cl_syoscb_item* item = new cl_syoscb_item("item");
 
             for(int n = 0; n<10; n++){
                 item->set_value(n);

@@ -25,7 +25,7 @@ class cl_uvm_test_nqs_max_items: public cl_uvm_test_base{
             this->cfg->set_queue_size(150);
             
             // creating pointer to item
-            cl_syoscb_item* item;
+            cl_syoscb_item* item = new cl_syoscb_item("item");
 
             // creating 10 elements with value n
             for(int n = 0; n<200; n++){
