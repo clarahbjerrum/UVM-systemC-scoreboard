@@ -10,7 +10,7 @@ setenv LD_LIBRARY_PATH /home/clara/Programs/systemc-2.3.3/lib-linux64:/home/clar
 ```
 
 
-The scoreboard application and its test can be run by `make`, which run the first test: cl_uvm_test_all_matches. 
+The scoreboard application and its test can be run by `make`, which run the first test: cl_uvm_test_2qs_all_matches. 
 
 To see all available tests and how to run them use: `make info`
 
